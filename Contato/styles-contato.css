@@ -57,6 +57,26 @@ header nav .menu li a:hover{
     color:#cabfbf;
 }
 
+.button{
+    margin-left: 40px;
+    margin-right: -20px;
+    background-color: #512da8;
+    color: #fff;
+    font-size: 14px;
+    padding: 10px 30px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #5e34be;
+    font-weight: 800;
+}
+
 .container-form{
     display: flex;
     align-items: center;
@@ -104,7 +124,7 @@ header nav .menu li a:hover{
 }
 
 
-.button{
+.button-send{
     background-color: #512da8;
     color: #fff;
     font-size: 14px;
@@ -119,7 +139,7 @@ header nav .menu li a:hover{
     margin-top: 10px;
 }
 
-.button:hover{
+.button-send:hover{
     background-color: #5e34be;
     font-weight: 800;
 }
